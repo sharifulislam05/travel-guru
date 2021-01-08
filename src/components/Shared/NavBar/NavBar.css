@@ -1,0 +1,36 @@
+.search-bar {
+  position: relative;
+}
+
+.search__icon {
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  right: 0;
+  bottom: 0;
+  color: white;
+}
+
+.search__input {
+  background: none;
+  border-radius: 20px;
+  color: #ffff !important;
+}
+
+.search__input:focus {
+  background: none;
+}
+
+.search__input::placeholder {
+  color: #ffff;
+}
+
+a.nav-link {
+  color: #ffff !important;
+}
+
+@media only screen and (max-width: 766px) {
+  .search__icon {
+    left: 250px;
+  }
+}

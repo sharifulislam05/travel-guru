@@ -1,0 +1,39 @@
+.banner {
+  height: 100vh;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom right !important;
+}
+
+.banner__nav {
+  margin-bottom: 120px;
+}
+
+.banner__short-description {
+  color: azure;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+.banner__card {
+  cursor: pointer;
+  border-radius: 10px;
+  background-position: bottom center;
+  border: 2px solid yellow;
+  overflow: hidden;
+}
+
+.banner__card--child {
+  transition: all 0.5s;
+}
+
+.banner__card:hover .banner__card--child,
+.banner__card:focus .banner__card--child {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 766px) {
+  .banner__nav {
+    margin-bottom: 40px;
+  }
+}

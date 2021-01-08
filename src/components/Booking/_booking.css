@@ -1,0 +1,38 @@
+.booking-container {
+  background-position: bottom center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.booking {
+  margin-top: 100px;
+}
+
+.calender-logo {
+  cursor: pointer;
+  width: 20%;
+  height: 50%;
+}
+
+.react-datepicker__input-container input {
+  outline: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.form-container {
+  background: white;
+  width: 400px;
+  height: 350px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 766px) {
+  .booking {
+    margin-top: 50px;
+  }
+  .form-container {
+    margin-top: 40px;
+  }
+}

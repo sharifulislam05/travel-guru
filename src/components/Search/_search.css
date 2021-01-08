@@ -1,0 +1,20 @@
+.search {
+  border-top: 1px solid #d1d1d1;
+  margin-top: 15px;
+}
+
+.search__resort--header {
+  line-height: 5px;
+}
+
+.resort__img {
+  border-radius: 30px;
+}
+
+.resort__description {
+  line-height: 15px;
+}
+
+.map-container > div {
+  width: 85% !important;
+}

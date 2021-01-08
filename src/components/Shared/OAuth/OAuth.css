@@ -1,0 +1,76 @@
+/* sign-up and login common property */
+.brand-auth {
+  width: 550px;
+  border: 1px solid #ababab;
+  margin: 10px;
+}
+
+.signup-container {
+  height: 450px;
+}
+
+.login-container {
+  height: 320px;
+}
+
+.form-group-signup {
+  width: 462px;
+  height: 32px;
+}
+/* sign-up and login input fields  */
+.input__oauth {
+  outline: none;
+  border-style: none;
+  border-bottom: 1px solid #c5c5c5;
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+/* sign-up and login toggle */
+.auth-toggle {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+.email-verification {
+  height: 100vh;
+}
+
+.social-auth__btn {
+  width: 400px;
+  height: 51px;
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+  border-radius: 57px;
+  outline: none !important;
+}
+/* responsive for all device*/
+@media only screen and (max-width: 768px) {
+  .login-area {
+    height: 200px;
+    width: 350px;
+  }
+  .social-auth__btn {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .brand-auth {
+    width: 300px;
+  }
+  .form-group-signup {
+    width: 280px;
+  }
+  .media__header img {
+    width: 300px;
+  }
+}
