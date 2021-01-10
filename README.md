@@ -2,11 +2,12 @@
 
 ## [website](https://travel-guru95.web.app/)
 
-A simple online travel app where you can easily select a place and book a hotel. You can aslo get the accurate location of the hotel.
+A simple online travel app where you can easily select a place and book a hotel. User can also get the accurate location of the hotel from google map.
 
 ### Features
-- Book your traveling place
-- Sign up for booking hotelr
+- users can choose a place for travel
+- Sign up for booking hotel
+- booking a hotel room by a date
 - Use goolge maps for direction
 
 ## Technology
